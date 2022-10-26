@@ -2,7 +2,7 @@ import ChatBody from "./chat/ChatBody";
 import ChatFooter from "./chat/ChatFooter";
 import ChatHeader from "./chat/ChatHeader";
 
-function ChatPage() {
+function ChatView() {
   return (
     <>
       <ChatHeader />
@@ -12,4 +12,4 @@ function ChatPage() {
   );
 }
 
-export default ChatPage;
+export default ChatView;

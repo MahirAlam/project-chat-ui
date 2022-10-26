@@ -3,11 +3,11 @@ import { IoImageOutline } from "react-icons/io5";
 
 function ChatFooter() {
   return (
-    <div className="fixed bottom-0 left-0 lg:left-[calc(25%+1px)] md:left-[calc(30%+1px)] right-0">
-      <div className="flex flex-row items-center bg-base space-x-2 dark:bg-slate-900 bg-white justify-center px-4 py-2">
+    <div className="fixed bottom-0 left-0 lg:left-[calc(25%)] md:left-[calc(30%)] right-0">
+      <div className="flex flex-row bg-neutral-300 items-center bg-base space-x-2 dark:bg-slate-900 justify-center px-4 py-2">
         <button
           type="button"
-          className="inline-flex p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-opacity flex-shrink-0 justify-center items-center border border-transparent font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:border-none text-sm dark:text-slate-400 text-slate-800"
+          className="inline-flex p-2 rounded-full hover:bg-gray-400/40 dark:hover:bg-gray-800 transition-opacity flex-shrink-0 justify-center items-center border border-transparent font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:border-none text-sm dark:text-slate-400 text-slate-700"
         >
           <IoImageOutline className="h-6 w-6" />
         </button>

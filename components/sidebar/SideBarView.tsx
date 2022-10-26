@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-function ChatsList() {
+function SideBarView() {
   return (
-    <div className="flex flex-col before:mt-16 before:content-[' '] h-full overflow-scroll w-full p-3 md:dark:bg-gradient-to-b dark:to-slate-700 dark:from-slate-900 space-y-2 bg-transparent z-10 left-0">
+    <div className="flex flex-col before:mt-16 before:content-[' '] h-full overflow-auto w-full p-3 space-y-2 z-10 left-0">
       <button
         type="button"
-        className="items-center flex-shrink-0 block w-full p-2 space-x-2 font-medium text-left bg-slate-100/50 border rounded-lg group md:bg-transparent md:border-none hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 dark:bg-transparent hover:opacity-80 dark:border-slate-700/70"
+        className="items-center flex-shrink-0 block w-full p-2 space-x-2 font-medium text-left rounded-lg group md:bg-transparent focus:outline-none focus:ring-2 focus:ring-blue-600 bg-transparent dark:hover:bg-slate-800/60 hover:bg-slate-300/40"
       >
         <div className="flex items-center">
           <Image
@@ -33,4 +33,4 @@ function ChatsList() {
   );
 }
 
-export default ChatsList;
+export default SideBarView;

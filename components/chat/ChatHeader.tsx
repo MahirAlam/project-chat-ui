@@ -5,7 +5,7 @@ import { IoIosArrowBack } from "react-icons/io";
 function ChatHeader() {
   return (
     <>
-      <header className="bg-slate-200 fixed text-sm py-3 h-16 flex left-0 md:left-[calc(30%+1px)] lg:left-[calc(25%+1px)] right-0 top-0 items-center justify-between px-3 flex-row dark:bg-slate-900">
+      <header className="bg-slate-100 shadow-md fixed text-sm py-3 h-16 flex left-0 md:left-[calc(30%+1px)] lg:left-[calc(25%+1px)] right-0 top-0 items-center justify-between px-3 flex-row dark:bg-slate-900">
         <div className="flex items-center">
           <Link href={"/chats"}>
             <button className="flex md:hidden hover:opacity-80 items-center justify-center -ml-1 focus-visible:border-blue-500 focus-visible:border-2 focus-visible:outline-none h-9 w-9 mr-2 bg-transparent rounded-full overflow-hidden">
@@ -33,8 +33,8 @@ function ChatHeader() {
           </div>
         </div>
         <div className="space-x-2 flex flex-row">
-          <button className="flex items-center justify-center focus-visible:border-blue-500 focus-visible:border-2 dark:hover:bg-gray-800 hover:bg-gray-100 focus-visible:outline-none h-[2.575rem] w-[2.575rem] -mr-1 bg-transparent rounded-full overflow-hidden">
-            <BsThreeDotsVertical className="h-6 w-6 fill-slate-800 dark:fill-slate-200" />
+          <button className="flex items-center justify-center focus-visible:border-blue-500 focus-visible:border-2 dark:hover:bg-gray-800 hover:bg-gray-200 focus-visible:outline-none h-[2.575rem] w-[2.575rem] -mr-1 bg-transparent rounded-full overflow-hidden">
+            <BsThreeDotsVertical className="h-6 w-6 fill-slate-700 dark:fill-slate-200" />
           </button>
         </div>
       </header>
